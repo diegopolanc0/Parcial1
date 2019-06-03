@@ -25,10 +25,9 @@ class NewBookActivity : AppCompatActivity() {
                 et_autores.text.toString(),
                 et_edicion.text.toString().toInt(),
                 et_editorial.text.toString(),
-                et_isbn.text.toString(),
+
                 et_resumen.text.toString(),
-                "N/A",
-                0
+                "N/A"
             )
 
             bookViewModel.insertBook(book)

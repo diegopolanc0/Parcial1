@@ -40,9 +40,9 @@ class Activity_Book : AppCompatActivity() {
                 tv_autores.text = book.Autores
                 tv_edicion.text = book.Edicion.toString()
                 tv_editoriales.text = book.Editorial
-                tv_isbn.text = book.ISBN
+
                 tv_resumen.text = book.Resumen
-                tv_tag.text = book.Tag
+
                 if(book.Favorito == 0){
                     bt_agregar_favorito.visibility = View.VISIBLE
                     bt_agregar_favorito.setOnClickListener {

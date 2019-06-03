@@ -62,13 +62,7 @@
                 android:layout_margin="@dimen/margin_tv"
                 android:inputType="text"/>
 
-        <EditText
-                android:id="@+id/et_isbn"
-                android:layout_width= "@dimen/et_width"
-                android:layout_height="wrap_content"
-                android:hint="@string/isbn"
-                android:layout_margin="@dimen/margin_tv"
-                android:inputType="text"/>
+
 
         <Button
                 android:id="@+id/bt_agregar"

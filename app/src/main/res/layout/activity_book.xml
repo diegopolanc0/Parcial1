@@ -137,23 +137,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-            <TextView
-                    android:id="@+id/isbn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/isbn"
-                    android:padding="@dimen/padding_tv"
-                    android:textAlignment="center"
-                    android:layout_margin="@dimen/margin_tv"/>
 
-            <TextView
-                    android:id="@+id/tv_isbn"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/text_nothing"
-                    android:padding="@dimen/padding_tv"
-                    android:textAlignment="center"
-                    android:layout_margin="@dimen/margin_tv"/>
 
         </LinearLayout>
 
@@ -185,23 +169,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
 
-            <TextView
-                    android:id="@+id/tag"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/tag_s"
-                    android:padding="@dimen/padding_tv"
-                    android:textAlignment="center"
-                    android:layout_margin="@dimen/margin_tv"/>
 
-            <TextView
-                    android:id="@+id/tv_tag"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/text_nothing"
-                    android:padding="@dimen/padding_tv"
-                    android:textAlignment="center"
-                    android:layout_margin="@dimen/margin_tv"/>
 
         </LinearLayout>
 
