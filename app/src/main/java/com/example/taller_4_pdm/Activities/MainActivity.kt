@@ -30,6 +30,9 @@ import kotlinx.android.synthetic.main.content_main.*
 import kotlinx.android.synthetic.main.fragment_content.*
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+    //TextView showValue;
+   // int counter = 0;
+
     override fun onNavigationItemSelected(p0: MenuItem): Boolean {
         var id = p0.itemId
         when(id){
@@ -50,6 +53,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             }
         }
     }
+
 
     private lateinit var bookViewModel: BookViewModel
     var twoPane = false
@@ -111,7 +115,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             Log.d("Book: ", item.Titulo)
         }
     }
-}
 
+
+}
 
 

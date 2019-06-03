@@ -2,6 +2,7 @@ package com.example.taller_4_pdm.Activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.TextView
 import androidx.lifecycle.ViewModelProviders
 import com.example.taller_4_pdm.R
 import com.example.taller_4_pdm.RoomDataBase.Entities.BookEntity

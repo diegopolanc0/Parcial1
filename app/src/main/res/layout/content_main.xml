@@ -16,5 +16,50 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#fff"/>
+    <TextView
+            android:text="equipo local"
+            android:layout_width="185dp"
+            android:layout_height="67dp" android:id="@+id/textView2"
+    />
+    <Button
+
+
+            android:text="suma 1pt"
+
+            android:onClick="CountIN"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content" android:id="@+id/suma1"/>
+    <Button
+            android:text="suma 2pt"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content" android:id="@+id/button2"/>
+    <Button
+            android:text="suma 3pt"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content" android:id="@+id/button3"/>
+    <TextView
+            android:text="Equipo visitante "
+            android:layout_width="192dp"
+            android:layout_height="wrap_content" android:id="@+id/textView4"/>
+    <Button
+            android:text="suma 1 pt"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content" android:id="@+id/button4"/>
+    <Button
+            android:text="suma 2pt"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content" android:id="@+id/button5"/>
+    <Button
+            android:text="suma 3pt "
+            android:layout_width="190dp"
+            android:layout_height="wrap_content" android:id="@+id/button6"/>
+    <TextView
+            android:text="resultados loca :"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/Countervalue"/>
+    <TextView
+            android:text="Recuerda guardar tus resltados presionando +"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView5"/>
 
 </LinearLayout>
