@@ -19,7 +19,7 @@
     <TextView
             android:text="equipo local"
             android:layout_width="185dp"
-            android:layout_height="67dp" android:id="@+id/textView2"
+            android:layout_height="31dp" android:id="@+id/textView2"
     />
     <Button
 
@@ -28,15 +28,15 @@
 
             android:onClick="CountIN"
             android:layout_width="185dp"
-            android:layout_height="wrap_content" android:id="@+id/suma1"/>
+            android:layout_height="35dp" android:id="@+id/suma1"/>
     <Button
             android:text="suma 2pt"
             android:layout_width="187dp"
-            android:layout_height="wrap_content" android:id="@+id/button2"/>
+            android:layout_height="29dp" android:id="@+id/button2"/>
     <Button
             android:text="suma 3pt"
             android:layout_width="189dp"
-            android:layout_height="wrap_content" android:id="@+id/button3"/>
+            android:layout_height="35dp" android:id="@+id/button3"/>
     <TextView
             android:text="Equipo visitante "
             android:layout_width="192dp"
